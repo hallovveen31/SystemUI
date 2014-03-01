@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/recent_item" android:layout_width="403.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_thumbnail_image" android:background="#ff000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="53.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="22.0dip" />
+    <ImageView android:id="@id/app_thumbnail_shadow_image" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="53.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="22.0dip" android:src="#ff000000" android:alpha="0.0" />
+    <RelativeLayout android:id="@id/app_big_view" android:background="@drawable/border_shadow_top_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/app_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="35.0dip" android:layout_marginRight="5.0dip" android:shadowColor="#ff000000" android:shadowDy="-1.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/app_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/app_icon" android:layout_alignTop="@id/app_icon" android:fontFamily="Roboto" />
+    </RelativeLayout>
+    <ImageView android:id="@id/app_delete" android:background="@drawable/delete_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_0020" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>
