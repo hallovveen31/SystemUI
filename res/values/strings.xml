@@ -6,14 +6,14 @@
 %2$s"</string>
     <string name="tw_status_bar_date_formatter">%1$s, %2$s</string>
     <string name="quickpanel_notification_count_formatter">(%1$d)</string>
-    <string name="quickpanel_ampm_position_formatter">%1$s %2$s</string>
+    <string name="quickpanel_ampm_position_formatter">%1$s</string>
     <string name="quickpanel_twenty_four_hour_time_format">HH:mm</string>
     <string name="quickpanel_twelve_hour_time_format">h:mm</string>
     <string name="quickpanel_month_day_year">MMMM d. yyyy</string>
     <string name="quickpanel_day_month_year">d MMMM. yyyy</string>
     <string name="quickpanel_year_month_day">yyyy MMMM d</string>
     <string name="app_label">System UI</string>
-    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_clear_all_button">CLEAR</string>
     <string name="status_bar_do_not_disturb_button">Do not disturb</string>
     <string name="status_bar_please_disturb_button">Show notifications</string>
     <string name="status_bar_recent_remove_item_title">Remove from list</string>
